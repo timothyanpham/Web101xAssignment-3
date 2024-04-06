@@ -1,0 +1,53 @@
+@media screen and (max-width: 576px) {
+  #container-nav {
+    display: block;
+  }
+  section > .container {
+    width: 576px;
+  }
+  .nav-info {
+    display: none;
+  }
+  .nav3 {
+    margin: 5px;
+  }
+  .nav1 {
+    margin: 5px;
+  }
+  #head-info {
+    display: block;
+  }
+  #job-info {
+    display: block !important;
+  }
+  .certi-grid {
+    display: block;
+    width: 500px;
+  }
+  .certi-left {
+    border-right: none;
+    border-bottom: #d6c08d solid 2px;
+  }
+  #certificate {
+    width: 576px;
+    margin: 0;
+    padding: 0;
+  }
+  .certi-bottom {
+    display: block;
+    width: 500px;
+    border-bottom: #d6c08d solid 2px;
+  }
+  #project {
+    width: 576px !important;
+  }
+  .project-img {
+    width: 550px !important;
+  }
+  .project-grid {
+    display: block;
+  }
+  .content-flex {
+    grid-template-columns: 15% 85%;
+  }
+}

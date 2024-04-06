@@ -1,0 +1,55 @@
+@media screen and (max-width: 992px) {
+  .nav-avt {
+    display: none;
+  }
+  #banner {
+    width: auto;
+  }
+  #target {
+    padding: 20px;
+  }
+  #personal-info {
+    padding: 20px;
+  }
+  #job-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 20px;
+    line-height: 1.5;
+  }
+  .certi-left {
+    display: block;
+  }
+  .certi-right {
+    display: block;
+  }
+  .certi-conten,
+  .certi-content,
+  .certi-bottom {
+    margin-top: 10px;
+    padding-top: 10px;
+    line-height: 1;
+  }
+  .project-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  .h1-left {
+    font-size: 32px;
+  }
+  .project-img {
+    width: 240px;
+  }
+  .project-flex {
+    gap: 10px;
+    padding: 5px;
+    margin: 0;
+  }
+  #project {
+    width: 992px;
+  }
+  .mission {
+    gap: 10px;
+  }
+}
